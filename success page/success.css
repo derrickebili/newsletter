@@ -1,0 +1,62 @@
+body {
+  background-color: #36384d;
+}
+
+.message {
+    height: 35%;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 10px;
+    width: 25%;
+    padding: 20px;
+}
+
+.img{
+ 
+    margin-top: 10px;
+    width: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: hsl(235, 18%, 26%);
+}
+h1 {
+  color: #1b1d35;
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: hsl(234, 29%, 20%);
+}
+button:hover {
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #ff693e 50%,
+    #ff5476 100%
+  );
+  border: #ff5476;
+  color: white;
+  cursor: grabbing;
+}
